@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(137, 198, 250);
+    flex-direction: column;
+    font-family: 'Poppins',sans-serif;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
